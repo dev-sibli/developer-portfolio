@@ -12,6 +12,11 @@ h1 {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
+.side-banner {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
 .felxible-container {
   display: flex;
   margin-bottom: 150px;
@@ -19,7 +24,6 @@ h1 {
 .half-width {
   width: 50%;
   padding-left: 2%;
-  padding-right: 2%;
 }
 .half-width img {
   width: 80%;
@@ -27,8 +31,19 @@ h1 {
 .hire-button {
   text-decoration: none;
   background-image: linear-gradient(orange, tomato);
-  padding: 10px 20px;
+  padding: 10px 40px;
   border-radius: 5px;
   color: white;
   font-weight: 700;
+}
+.experience {
+  text-align: center;
+}
+.web-developer {
+  display: flex;
+  margin-bottom: 150px;
+}
+.full-stack {
+  background-color: orange;
+  padding: 20px;
 }
