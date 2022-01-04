@@ -5,6 +5,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 .name-orange {
   color: orange;
 }
@@ -39,11 +42,29 @@ h1 {
 .experience {
   text-align: center;
 }
-.web-developer {
-  display: flex;
-  margin-bottom: 150px;
+.side-banner-one {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
-.full-stack {
-  background-color: orange;
-  padding: 20px;
+.web-developer {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+}
+#full-developer {
+  border-left: 7px solid;
+  border-image: linear-gradient(red, orange);
+  border-image-slice: 1;
+}
+#baby-developer {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
 }
